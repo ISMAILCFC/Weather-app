@@ -1,0 +1,42 @@
+form {
+    margin-top:  3rem;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: white;
+    border:0;
+    border-bottom: 2px solid rgb(201, 196, 196);
+    border-radius: 0;
+}
+
+form input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+}
+#weather-card{
+    margin-top: 10px;
+}
+#weather-card i{
+    color:yellow;
+}
+
+form input
+.container::-webkit-input-placeholder {
+    color: white !important;
+}
+
+ @media only screen and (max-width: 750px) {
+    button {
+        margin-top: 20px;
+    } 
+    form input[name="city"],
+form input[name="country"] {
+    
+    margin: auto;
+    margin-top: 5px;
+    width: 75%;
+}
+}
+
